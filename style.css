@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (width < 500px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media screen and (width >=500px) {
+    img {
+        width: 50%;
+    }
+}
